@@ -25,7 +25,6 @@
 	</div>
 	<%
 		String id = request.getParameter("id");
-		Product product = productDAO.getProductById(id);
         ProductRepository dao = ProductRepository.getInstance();
 		Product product = dao.getProductById(id); 
 	%>
