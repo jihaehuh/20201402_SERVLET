@@ -2,7 +2,7 @@
 	<nav class="navbar navbar-expand  navbar-dark bg-dark">
 
 
-	<div class="container">
+        <div class="container">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="./index.jsp">메뉴바 : 홈페이지</a>
             <a class="navbar-brand" href="./index.jsp">로그인</a>

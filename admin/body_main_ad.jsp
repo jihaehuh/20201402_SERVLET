@@ -7,14 +7,16 @@
 <%@ page import="example.*" %>
 <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />
 
-    <%! String greeting = "꾸팡페이지에 오신걸 환영합니다.";
+    <%! String greeting = "현재 페이지는 VGA그래픽 카드 상품 목록입니다.";
       String tagline = "하단페이지 : 확인";%>
-	<div class="jumbotron">
-		<div class="container">
-			<h1 class="display-3">
-				<%=greeting%>
-			</h1>
-		</div>
+    <div class="container">
+		<div class="jumbotron">
+			<div class="container">
+				<h3 class="display-4">
+							<%=greeting%>
+				</h3>
+            </div>
+        </div>
 	</div>	
 	<%
 		ArrayList<Product> listOfProducts = productDAO.getAllProducts(); // 리스트에 상품 전체 정보를 얻어온다.

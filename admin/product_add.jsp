@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=utf-8"%>
+0<%@ page contentType="text/html;charset=utf-8"%>
 <html>
 <head>
     <script type ="text/javascript" src ="../js/validation.js"></script>
