@@ -23,36 +23,57 @@ public class ProductRepository {
 	 
    
     public ProductRepository() {
-		Product phone = new Product("P1234", "iPhone 6s", 800000);
-		phone.setDescription("4.7-inch, 1334X750 Renina HD display, 8-megapixel iSight Camera");
-		phone.setCategory("Smart Phone");
-		phone.setManufacturer("Apple");
-		phone.setUnitsInStock(1000);
-		phone.setCondition("New");
-        phone.setFilename("P1234.png");
-        		Product notebook = new Product("P1235", "LG PC 그램", 1500000);
-		notebook.setDescription("13.3-inch, IPS LED display, 5rd Generation Intel Core processors");
-		notebook.setCategory("Notebook");
-		notebook.setManufacturer("LG");
-		notebook.setUnitsInStock(1000);
-		notebook.setCondition("Refurbished");
-        notebook.setFilename("P1235.png");
-
-
-		Product tablet = new Product("P1236", "Galaxy Tab S", 900000);
-		tablet.setDescription("212.8*125.6*6.6mm,  Super AMOLED display, Octa-Core processor");
-		tablet.setCategory("Tablet");
-		tablet.setManufacturer("Samsung");
-		tablet.setUnitsInStock(1000);
-		tablet.setCondition("Old");
-		tablet.setFilename("P1236.png");
+		Product haribo = new Product("P1234", "HARIBO", 1000);
+		haribo.setCategory("Jelly");
+		haribo.setManufacturer("Germany");
+		haribo.setCondition("New");
+        haribo.setFilename("P1234.png");
+        
+        Product kinderChoco = new Product("P1235", "Kinder Chocolate", 1000);
+		kinderChoco.setCategory("Chocolate");
+		kinderChoco.setManufacturer("Germany");
+		kinderChoco.setCondition("New");
+        kinderChoco.setFilename("P1235.png");
+        
+        Product hersheychoco = new Product("P1236", "Hershey's Chocolate", 1000);
+		hersheychoco.setCategory("Chocolate");
+		hersheychoco.setManufacturer("America");
+		hersheychoco.setCondition("New");
+        hersheychoco.setFilename("P1236.png");
+        		
+        		
+        Product candy = new Product("P1237", "Charms Candy", 1000);
+		candy.setCategory("candy");
+		candy.setManufacturer("America");
+		candy.setCondition("New");
+        candy.setFilename("P1237.png");
+        
+        
+        
+        Product loacker = new Product("P1238", "Loacker", 1000);
+        loacker.setCategory("chocolate");
+		loacker.setManufacturer("Italy");
+		loacker.setCondition("New");
+        loacker.setFilename("P1238.png");
+        
+        
+        Product kido = new Product("P1239", "Kid-O", 1000);
+        loacker.setCategory("cracker");
+		loacker.setManufacturer("Philippine");
+		loacker.setCondition("New");
+        loacker.setFilename("P1239.png");
+        
+        
 		
 
 		// 위와 같이 상품 초기화 하고 아래에 상품을 추가
 
-		listOfProducts.add(phone);
-		listOfProducts.add(notebook);
-		listOfProducts.add(tablet);
+		listOfProducts.add(haribo);
+		listOfProducts.add(kinderChoco);
+		listOfProducts.add(hersheychoco);
+        listOfProducts.add(candy);
+        listOfProducts.add(loacker);
+        listOfProducts.add(kido);
 		// listOfProducts.add(상품명);
 	}
 
